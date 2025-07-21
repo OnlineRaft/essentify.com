@@ -3,19 +3,19 @@ import ImageCombination from "@/images/ABFE-Combination.jpg";
 
 export const config = {
 	categories: [
-		{ name: "Монопрепарати", slug: "Australian-Bush-Flower-Essences-Single", image: ImageSingle },
+		{ name: "Моноесенции", slug: "Australian-Bush-Flower-Essences-Single", image: ImageSingle },
 		{ name: "Комбинации", slug: "Australian-Bush-Flower-Essences-Combination", image: ImageCombination },
 	],
 
 	social: {
-		x: "https://x.com/yourstore",
-		facebook: "https://facebook.com/yourstore",
+		x: "https://x.com/essentify",
+		facebook: "https://facebook.com/essentify",
 	},
 
 	contact: {
-		email: "support@yourstore.com",
-		phone: "+1 (555) 111-4567",
-		address: "123 Store Street, City, Country",
+		email: "info@essentify.com",
+		phone: "+359892375248",
+		address: "София, България",
 	},
 };
 

@@ -84,7 +84,7 @@ export async function Footer() {
 			</div>
 			<div className="container mt-8 flex max-w-7xl flex-col items-center justify-between gap-4 text-sm text-neutral-500 md:flex-row">
 				<div>
-					<p>© Essentify 2025. Всички права запазени.</p>
+					<p>© Есентифай 2025. Всички права запазени.</p>
 				</div>
 				<div className="flex items-center gap-4">
 					<YnsLink
