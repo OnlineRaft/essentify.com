@@ -68,10 +68,10 @@ export async function Footer() {
 				<div className="flex items-center gap-4">
 					<YnsLink
 						className="inline-flex items-center gap-1 transition-colors hover:text-neutral-700"
-						href="https://x.com/zaiste"
+						href="https://facebook.com/essentify"
 					>
 						<TwitterIcon className="h-4 w-4" />https://facebook.com/essentify
-						<span className="sr-only">Facebook</span>
+						<span className="sr-only">facebook.com/essentify</span>
 					</YnsLink>
 				</div>
 			</div>
