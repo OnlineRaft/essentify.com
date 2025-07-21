@@ -31,13 +31,13 @@ export default async function Home() {
 						</YnsLink>
 					</div>
 					<Image
-						alt="Cup of Coffee"
+						alt="Австралийски Буш Цветни Есенции"
 						loading="eager"
 						priority={true}
 						className="rounded"
 						height={450}
 						width={450}
-						src="https://ausflowers.com.au/cdn/shop/files/K300-AU_Stock_Kit_Refreshed2024_NEW-web01_91e3e8fa-7ce0-4f53-9035-800d8525711e_720x@2x.png?v=1730330196"
+						src="https://ausflowers.com.au/cdn/shop/files/K300-AU_Stock_Kit_Refreshed2024_NEW-web01_91e3e8fa-7ce0-4f53-9035-800d8525711e_720x@2x.png"
 						style={{
 							objectFit: "cover",
 						}}
