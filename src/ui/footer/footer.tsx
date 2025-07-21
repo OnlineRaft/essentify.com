@@ -6,25 +6,46 @@ import { YnsLink } from "@/ui/yns-link";
 
 const sections = [
 	{
-		header: "Products",
+		header: "Продукти",
 		links: StoreConfig.categories.map(({ name, slug }) => ({
 			label: name,
 			href: `/category/${slug}`,
 		})),
 	},
 	{
-		header: "Support",
+		header: "За Есентифай",
 		links: [
 			{
-				label: "Features",
-				href: "https://yournextstore.com/#features",
+				label: "Контакти",
+				href: "mailto:hi@yournextstore.com",
 			},
 			{
-				label: "Pricing",
+				label: "Австралийски цветни Буш Есенции",
 				href: "https://yournextstore.com/#pricing",
 			},
 			{
-				label: "Contact Us",
+				label: "Начало",
+				href: "",
+			},
+		],
+	},	
+	{
+		header: "Поддръжка",
+		links: [
+			{
+				label: "Help Center",
+				href: "https://yournextstore.com/#features",
+			},
+			{
+				label: "Returns and Refunds",
+				href: "https://yournextstore.com/#pricing",
+			},
+			{
+				label: "Terms of Service",
+				href: "mailto:hi@yournextstore.com",
+			},
+			{
+				label: "Privacy Policy",
 				href: "mailto:hi@yournextstore.com",
 			},
 		],
