@@ -37,7 +37,7 @@ export default async function Home() {
 						className="rounded"
 						height={450}
 						width={450}
-						src="https://files.stripe.com/links/MDB8YWNjdF8xT3BaeG5GSmNWbVh6bURsfGZsX3Rlc3RfaDVvWXowdU9ZbWlobUIyaHpNc1hCeDM200NBzvUjqP"
+						src="https://ausflowers.com.au/cdn/shop/files/K300-AU_Stock_Kit_Refreshed2024_NEW-web01_91e3e8fa-7ce0-4f53-9035-800d8525711e_720x@2x.png?v=1730330196"
 						style={{
 							objectFit: "cover",
 						}}
