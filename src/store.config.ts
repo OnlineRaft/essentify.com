@@ -1,10 +1,10 @@
-import AccessoriesImage from "@/images/accessories.jpg";
-import ApparelImage from "@/images/apparel.jpg";
+import ImageSingles from "@/images/ABFE-Singles.jpg";
+import ImageCombinations from "@/images/ABFE-Combinations.jpg";
 
 export const config = {
 	categories: [
-		{ name: "Монопрепарати", slug: "Australian-Bush-Flower-Essences-Single", image: ApparelImage },
-		{ name: "Комбинации", slug: "Australian-Bush-Flower-Essences-Combination", image: AccessoriesImage },
+		{ name: "Монопрепарати", slug: "Australian-Bush-Flower-Essences-Single", image: ImageSingles },
+		{ name: "Комбинации", slug: "Australian-Bush-Flower-Essences-Combination", image: ImageCombinations },
 	],
 
 	social: {
