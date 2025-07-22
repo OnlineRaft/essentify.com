@@ -69,7 +69,7 @@ const PaymentForm = ({
 
           <form
             className="mt-10 flex max-w-md gap-4 items-start w-full"
-            action={dispatch}
+//            action={dispatch}
           >
             <label htmlFor="email" className="sr-only">
               Email address
