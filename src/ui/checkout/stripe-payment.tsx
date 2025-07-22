@@ -61,14 +61,6 @@ const PaymentForm = ({
             className="mt-10 flex max-w-md gap-4 items-start w-full"
             //action={dispatch}
           >
-        <InputWithErrors
-          label="Име и Фамилия"
-          name="state"
-          defaultValue=
-          autoComplete="shipping address-level1"
-          className="mt-3 w-full"
-        />
-
            <div className="grid gap-6 sm:grid-cols-2 2xl:grid-cols-1">
             <label className="mt-3 w-full">
               Име и Фамилия
