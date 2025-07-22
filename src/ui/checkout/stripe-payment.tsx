@@ -60,14 +60,15 @@ const PaymentForm = ({
             Доставка
           </h2>
 
-          <p>
-            Напишете данните си за доставка.
+          <p className="mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">
+            Type your email address to get invited to a team.
           </p>
 
           <form
-//            action={dispatch}
+            className="mt-10 flex max-w-md gap-4 items-start w-full"
+            action={dispatch}
           >
-            <label htmlFor="email">
+            <label htmlFor="email" className="sr-only">
               Email address
             </label>
 
@@ -84,7 +85,6 @@ const PaymentForm = ({
 
             <SubmitButton />
           </form>
-
   );
 }
 
