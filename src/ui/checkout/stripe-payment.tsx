@@ -56,9 +56,6 @@ const PaymentForm = ({
 //  }, [state]);
 
   return (
-    <div className="bg-zinc-950 p-8 min-h-screen flex justify-center items-center sm:items-start sm:p-24">
-      <div className="mx-auto w-full max-w-5xl sm:px-6 lg:px-8">
-        <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl rounded-lg sm:rounded-3xl sm:px-24 xl:py-32 flex items-center flex-col">
           <h2 className="max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Доставка
           </h2>
@@ -89,9 +86,6 @@ const PaymentForm = ({
             <SubmitButton />
           </form>
 
-        </div>
-      </div>
-    </div>
   );
 }
 
