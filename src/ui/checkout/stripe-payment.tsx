@@ -5,6 +5,7 @@ import { useFormStatus } from "react-dom";
 import { send } from "../../lib/actions";
 import * as React from "react";
 import { toast } from "sonner";
+import type * as Commerce from "commerce-kit";
 
 export const StripePayment = ({
 	shippingRateId,
