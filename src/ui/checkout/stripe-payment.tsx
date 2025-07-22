@@ -56,6 +56,7 @@ const PaymentForm = ({
 //  }, [state]);
 
   return (
+    <div> 
           <h2>
             Доставка
           </h2>
@@ -85,6 +86,7 @@ const PaymentForm = ({
 
             <SubmitButton />
           </form>
+    </div>          
   );
 }
 
