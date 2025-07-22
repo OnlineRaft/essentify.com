@@ -57,20 +57,24 @@ const PaymentForm = ({
 
   return (
     <div> 
-          <h2>
-            Доставка
-          </h2>
-
-          <p className="mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">
-            Type your email address to get invited to a team.
-          </p>
-
           <form
             className="mt-10 flex max-w-md gap-4 items-start w-full"
             //action={dispatch}
           >
-            <label htmlFor="email" className="sr-only">
-              Email address
+            <label>
+              Име и Фамилия
+            </label>
+
+            <label>
+              Телефон
+            </label>
+
+            <label>
+              Адрес на офис на Спиди или Еконт
+            </label>            
+
+            <label>
+              Email
             </label>
 
             <input
@@ -81,7 +85,6 @@ const PaymentForm = ({
               defaultValue="delivered@resend.dev"
               placeholder="jane@example.com"
               autoComplete="email"
-              className="w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
             />
 
             <SubmitButton />
