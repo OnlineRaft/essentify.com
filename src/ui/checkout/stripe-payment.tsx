@@ -6,7 +6,41 @@ import { send } from "./lib/actions";
 import * as React from "react";
 import { toast } from "sonner";
 
-export default function Page() {
+export const StripePayment = ({
+	shippingRateId,
+	shippingRates,
+	allProductsDigital,
+	locale,
+}: {
+	shippingRateId?: string | null;
+	shippingRates: Commerce.MappedShippingRate[];
+	allProductsDigital: boolean;
+	locale: string;
+}) => {
+	return (
+		<PaymentForm
+			locale={locale}
+			shippingRates={shippingRates}
+			cartShippingRateId={shippingRateId ?? null}
+			allProductsDigital={allProductsDigital}
+		/>
+	);
+};
+
+const PaymentForm = ({
+	shippingRates,
+	cartShippingRateId,
+	allProductsDigital,
+	locale,
+}: {
+	shippingRates: Commerce.MappedShippingRate[];
+	cartShippingRateId: string | null;
+	allProductsDigital: boolean;
+	locale: string;
+}) => {
+
+//export default function Page() {
+	
   const [state, dispatch] = React.useActionState(send, undefined);
   React.useEffect(() => {
     if (!state) {
