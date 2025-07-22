@@ -2,7 +2,7 @@
 
 import clsx from "clsx";
 import { useFormStatus } from "react-dom";
-import { send } from "./lib/actions";
+import { send } from "../../lib/actions";
 import * as React from "react";
 import { toast } from "sonner";
 
@@ -40,7 +40,7 @@ const PaymentForm = ({
 }) => {
 
 //export default function Page() {
-	
+
   const [state, dispatch] = React.useActionState(send, undefined);
   React.useEffect(() => {
     if (!state) {
