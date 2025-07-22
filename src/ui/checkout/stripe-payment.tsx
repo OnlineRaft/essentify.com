@@ -61,14 +61,6 @@ const PaymentForm = ({
             className="mt-10 flex max-w-md gap-4 items-start w-full"
             //action={dispatch}
           >
-        <InputWithErrors
-          label="Име и Фамилия"
-          name="state"
-          defaultValue=
-          autoComplete="shipping address-level1"
-          className="mt-3 w-full"
-        />
-
            <div className="grid gap-6 sm:grid-cols-2 2xl:grid-cols-1">
             <label className="mt-3 w-full">
               Име и Фамилия
@@ -81,7 +73,7 @@ const PaymentForm = ({
               defaultValue="delivered@resend.dev"
               placeholder="jane@example.com"
               autoComplete="email"
-              className="w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
+              className="mt-3 w-full"
             />
           </div>
 
@@ -97,7 +89,7 @@ const PaymentForm = ({
               defaultValue="delivered@resend.dev"
               placeholder="jane@example.com"
               autoComplete="email"
-              className="w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
+              className="mt-3 w-full"
             />
           </div>
 
@@ -113,7 +105,7 @@ const PaymentForm = ({
               defaultValue="delivered@resend.dev"
               placeholder="jane@example.com"
               autoComplete="email"
-              className="w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
+              className="mt-3 w-full"
             />
           </div>
 
