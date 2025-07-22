@@ -56,19 +56,18 @@ const PaymentForm = ({
 //  }, [state]);
 
   return (
-          <h2 className="max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
+          <h2>
             Доставка
           </h2>
 
-          <p className="mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">
+          <p>
             Напишете данните си за доставка.
           </p>
 
           <form
-            className="mt-10 flex max-w-md gap-4 items-start w-full"
 //            action={dispatch}
           >
-            <label htmlFor="email" className="sr-only">
+            <label htmlFor="email">
               Email address
             </label>
 
