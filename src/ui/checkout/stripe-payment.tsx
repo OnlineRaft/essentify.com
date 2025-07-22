@@ -62,7 +62,7 @@ const PaymentForm = ({
             //action={dispatch}
           >
             <div>
-            <label>
+            <label className="mt-3 w-full">
               Име и Фамилия
             </label><br />
             <input
@@ -78,7 +78,7 @@ const PaymentForm = ({
           </div>
 
             <div>
-            <label>
+            <label className="mt-3 w-full">
               Телефон:
             </label><br />
             <input
@@ -94,7 +94,7 @@ const PaymentForm = ({
           </div>
 
             <div>
-            <label>
+            <label className="mt-3 w-full">
               Адрес на офис на Спиди или Еконт:
             </label><br /> 
              <input
@@ -110,7 +110,7 @@ const PaymentForm = ({
           </div>
 
             <div>
-            <label htmlFor="email" className="sr-only">
+            <label htmlFor="email" className="mt-3 w-full">
               Email:
             </label><br />
             <input
