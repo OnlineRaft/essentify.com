@@ -61,7 +61,7 @@ const PaymentForm = ({
             className="mt-10 flex max-w-md gap-4 items-start w-full"
             //action={dispatch}
           >
-            <div>
+           <div className="grid gap-6 sm:grid-cols-2 2xl:grid-cols-1">
             <label className="mt-3 w-full">
               Име и Фамилия
             </label><br />
@@ -77,7 +77,7 @@ const PaymentForm = ({
             />
           </div>
 
-            <div>
+            <div className="grid gap-6 sm:grid-cols-2 2xl:grid-cols-1">
             <label className="mt-3 w-full">
               Телефон:
             </label><br />
@@ -93,7 +93,7 @@ const PaymentForm = ({
             />
           </div>
 
-            <div>
+            <div className="grid gap-6 sm:grid-cols-2 2xl:grid-cols-1"><div>
             <label className="mt-3 w-full">
               Адрес на офис на Спиди или Еконт:
             </label><br /> 
@@ -109,7 +109,7 @@ const PaymentForm = ({
             />
           </div>
 
-            <div>
+            <div className="grid gap-6 sm:grid-cols-2 2xl:grid-cols-1">
             <label htmlFor="email" className="mt-3 w-full">
               Email:
             </label><br />
