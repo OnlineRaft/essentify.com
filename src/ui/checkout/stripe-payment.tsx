@@ -65,16 +65,7 @@ const PaymentForm = ({
             <label className="mt-3 w-full">
               Име и Фамилия
             </label><br />
-            <input
-              id="email"
-              name="email"
-              type="email"
-              required
-              defaultValue="delivered@resend.dev"
-              placeholder="jane@example.com"
-              autoComplete="email"
-              className="w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
-            />
+
           </div>
 
             <div className="block">
@@ -131,26 +122,22 @@ const PaymentForm = ({
 <div className="table w-full">
   <div className="table-header-group">
     <div className="table-row">
-      <div className="table-cell text-left ...">Song</div>
-      <div className="table-cell text-left ...">Artist</div>
-      <div className="table-cell text-left ...">Year</div>
+      <div className="table-cell text-left">Song</div>
+      <div className="table-cell text-left">Artist</div>
     </div>
   </div>
   <div className="table-row-group">
     <div className="table-row">
-      <div className="table-cell ...">The Sliding Mr. Bones (Next Stop, Pottersville)</div>
-      <div className="table-cell ...">Malcolm Lockyer</div>
-      <div className="table-cell ...">1961</div>
+      <div className="table-cell">The Sliding Mr. Bones (Next Stop, Pottersville)</div>
+      <div className="table-cell">Malcolm Lockyer</div>
     </div>
     <div className="table-row">
-      <div className="table-cell ...">Witchy Woman</div>
-      <div className="table-cell ...">The Eagles</div>
-      <div className="table-cell ...">1972</div>
+      <div className="table-cell">Witchy Woman</div>
+      <div className="table-cell">The Eagles</div>
     </div>
     <div className="table-row">
-      <div className="table-cell ...">Shining Star</div>
-      <div className="table-cell ...">Earth, Wind, and Fire</div>
-      <div className="table-cell ...">1975</div>
+      <div className="table-cell">Shining Star</div>
+      <div className="table-cell">Earth, Wind, and Fire</div>
     </div>
   </div>
 </div>
