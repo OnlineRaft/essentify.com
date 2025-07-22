@@ -42,19 +42,6 @@ const PaymentForm = ({
 
 //export default function Page() {
 
-  const [state, dispatch] = React.useActionState(send, undefined);
-  React.useEffect(() => {
-    if (!state) {
-      return;
-    }
-
-    if ("data" in state) {
-      toast(state.data);
-    } else if ("error" in state) {
-      toast(`Error when sending email: ${state.error}`);
-    }
-  }, [state]);
-
   return (
     <div className="bg-zinc-950 p-8 min-h-screen flex justify-center items-center sm:items-start sm:p-24">
       <div className="mx-auto w-full max-w-5xl sm:px-6 lg:px-8">
