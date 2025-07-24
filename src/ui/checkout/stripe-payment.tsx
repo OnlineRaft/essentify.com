@@ -43,10 +43,10 @@ const PaymentForm = ({
 //export default function Page() {
 
   const [message, dispatch] = React.useActionState(sendiii, null);
-//  React.useEffect(() => {
-//    if (!message) {
-//      return;
-//    }
+  React.useEffect(() => {
+    if (!message) {
+      return;
+    }
 
 //    if ("data" in message) {
 //     toast(message.data);
