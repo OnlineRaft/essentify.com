@@ -48,11 +48,11 @@ const PaymentForm = ({
       return;
     }
 
-//    if ("data" in message) {
-//     toast(message.data);
-//   } else if ("error" in message) {
-//      toast(`Error when sending email: ${message.error}`);
-//    }
+    if ("data" in message) {
+     toast(message.data);
+  } else if ("error" in message) {
+      toast(`Error when sending email: ${message.error}`);
+    }
   }, [message]);
 
   return (
