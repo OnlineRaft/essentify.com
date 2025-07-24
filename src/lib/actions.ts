@@ -10,13 +10,15 @@
 export async function sendiii(prevState, queryData) {
   const email = queryData.get("email") as string;
 
-  if (email === "1") {
+
+/*    if (email === "1") {
     return "data";
   } else {
     return "error";
   }
+*/
 
-/*  const { data, error } = await resend.emails.send({
+const { data, error } = await resend.emails.send({
     from: "Vercel <vercel@resend.dev>",
     to: [email],
     subject: "Join team on Vercel",
@@ -30,5 +32,5 @@ export async function sendiii(prevState, queryData) {
   console.log(data);
 
   return { data: "Email sent!" };
-*/  
+  
 }

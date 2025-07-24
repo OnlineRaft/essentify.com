@@ -43,7 +43,7 @@ const PaymentForm = ({
 //export default function Page() {
 
   const [message, dispatch] = React.useActionState(sendiii, null);
-  React.useEffect(() => {
+/*  React.useEffect(() => {
     if (!message) {
       return;
     }
@@ -54,6 +54,7 @@ const PaymentForm = ({
       toast(`Error when sending email: ${message.error}`);
     }
   }, [message]);
+ */ 
 
   return (
     <div> 
