@@ -42,18 +42,18 @@ const PaymentForm = ({
 
 //export default function Page() {
 
-  const [state, dispatch] = React.useActionState(send, null);
+  const [message, dispatch] = React.useActionState(send, null);
   React.useEffect(() => {
-    if (!state) {
+    if (!message) {
       return;
     }
 
-    if ("data" in state) {
-     toast(state.data);
-   } else if ("error" in state) {
-      toast(`Error when sending email: ${state.error}`);
+    if ("data" in message) {
+     toast(message.data);
+   } else if ("error" in message) {
+      toast(`Error when sending email: ${message.error}`);
     }
-  }, [state]);
+  }, [stateA]);
 
   return (
     <div> 
