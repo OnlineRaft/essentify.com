@@ -84,8 +84,8 @@ const PaymentForm = ({
               name="name"
               type="name"
               required
-              defaultValue="delivered@resend.dev"
-              placeholder="jane@example.com"
+              defaultValue=""
+              placeholder=""
               autoComplete="phone"
               className="w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
             /></div>
@@ -98,8 +98,8 @@ const PaymentForm = ({
               name="phone"
               type="phone"
               required
-              defaultValue="delivered@resend.dev"
-              placeholder="jane@example.com"
+              defaultValue=""
+              placeholder=""
               autoComplete="phone"
               className="w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
             /></div>
@@ -112,8 +112,8 @@ const PaymentForm = ({
               name="address"
               type="address"
               required
-              defaultValue="delivered@resend.dev"
-              placeholder="jane@example.com"
+              defaultValue=""
+              placeholder=""
               autoComplete="address"
               className="w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
             /></div>
@@ -126,8 +126,8 @@ const PaymentForm = ({
               name="email"
               type="email"
               required
-              defaultValue="delivered@resend.dev"
-              placeholder="jane@example.com"
+              defaultValue=""
+              placeholder=""
               autoComplete="email"
               className="w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
             /></div>
