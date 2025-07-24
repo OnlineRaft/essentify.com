@@ -53,7 +53,7 @@ const PaymentForm = ({
 //   } else if ("error" in message) {
 //      toast(`Error when sending email: ${message.error}`);
 //    }
-//  }, [message]);
+  }, [message]);
 
   return (
     <div> 
