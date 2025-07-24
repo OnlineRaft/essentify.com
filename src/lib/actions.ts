@@ -1,11 +1,13 @@
 "use server";
 
 import { Resend } from "resend";
-import { VercelInviteUserEmail } from "../ui/checkout/vercel-invite-user";
+// import { VercelInviteUserEmail } from "../ui/checkout/vercel-invite-user";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 //type State = { error: string } | { data: string };
+
+return  { "error" };
 
 export async function sendiii(prevState, queryData) {
   const email = queryData.get("email") as string;
@@ -13,7 +15,7 @@ export async function sendiii(prevState, queryData) {
   const { data, error } = await resend.emails.send({
     from: "Vercel <vercel@resend.dev>",
     to: [email],
-    subject: "Join team on Vercel AAA",
+    subject: "Join team on Vercel",
     react: VercelInviteUserEmail({}),
   });
 
