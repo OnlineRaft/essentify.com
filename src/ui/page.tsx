@@ -2,7 +2,7 @@
 
 import clsx from "clsx";
 import { useFormStatus } from "react-dom";
-import { send } from "./lib/actions";
+import { send } from "../lib/actions";
 import * as React from "react";
 import { toast } from "sonner";
 
