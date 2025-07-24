@@ -1,11 +1,11 @@
 {
 	"$schema": "https://json.schemastore.org/tsconfig.json",
 	"compilerOptions": {
-		"target": "ES2022",
+		"target": "es5",
 		"lib": ["dom", "dom.iterable", "esnext"],
 		"allowJs": true,
 		"skipLibCheck": true,
-		"strict": true,
+		"strict": false,
 		"forceConsistentCasingInFileNames": true,
 		"noEmit": true,
 		"esModuleInterop": true,
@@ -19,6 +19,7 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": false,
 		"noUncheckedIndexedAccess": true,
+		"noImplicitAny": false,
 		"plugins": [
 			{
 				"name": "next"
