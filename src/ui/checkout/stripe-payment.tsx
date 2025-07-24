@@ -2,8 +2,9 @@
 
 import clsx from "clsx";
 import { useFormStatus } from "react-dom";
-import { send } from "../../lib/actions";
-import * as React from "react";import { toast } from "sonner";
+//import { send } from "../../lib/actions";
+import * as React from "react";
+//import { toast } from "sonner";
 import type * as Commerce from "commerce-kit";
 
 export const StripePayment = ({
@@ -41,24 +42,24 @@ const PaymentForm = ({
 
 //export default function Page() {
 
-  const [state, dispatch] = React.useActionState(send, 0);
-  React.useEffect(() => {
-    if (!state) {
-      return;
-    }
+//  const [state, dispatch] = React.useActionState(send, 0);
+//  React.useEffect(() => {
+//    if (!state) {
+//      return;
+//    }
 
-    if ("data" in state) {
-     toast(state.data);
-   } else if ("error" in state) {
-      toast(`Error when sending email: ${state.error}`);
-    }
-  }, [state]);
+//    if ("data" in state) {
+//     toast(state.data);
+//   } else if ("error" in state) {
+//      toast(`Error when sending email: ${state.error}`);
+//    }
+//  }, [state]);
 
   return (
     <div> 
           <form
             className="mt-10 flex max-w-md gap-4 items-start w-full"
-            action={dispatch}
+//            action={dispatch}
           >
             <div className="block">
             <label className="mt-3 w-full">
