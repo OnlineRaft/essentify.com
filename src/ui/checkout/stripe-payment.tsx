@@ -65,12 +65,14 @@ const PaymentForm = ({
             action={dispatch}
           >
 <div className="table w-full">
+
   <div className="table-header-group">
     <div className="table-row">
       <div className="table-cell text-left">Song</div>
       <div className="table-cell text-left">Artist</div>
     </div>
   </div>
+
   <div className="table-row-group">
     <div className="table-row">
       <div className="table-cell"><label className="mt-3 w-full">Име и Фамилия</label></div>
@@ -130,11 +132,10 @@ const PaymentForm = ({
     </div>
     <div className="table-row">
       <div className="table-cell"><label className="mt-3 w-full"><SubmitButton /></label></div>
-      <div className="table-cell"></div>          
+      <div className="table-cell">aaa</div>          
   </div>
 </div>
           </form>
-
     </div>          
   );
 }
