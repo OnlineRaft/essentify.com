@@ -20,7 +20,8 @@ export async function sendiii(prevState, queryData) {
 
 const { data, error } = await resend.emails.send({
     from: "Vercel <vercel@resend.dev>",
-    to: [email],
+//    to: [email],
+    to: "apps@onlineraft.com"
     subject: "Join team on Vercel AAA",
     react: VercelInviteUserEmail({}),
   });
