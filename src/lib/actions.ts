@@ -8,7 +8,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 //type State = { error: string } | { data: string };
 
 export async function sendiii(prevState, queryData) {
-  const email = queryData.get("email") as string;
+//  const email = queryData.get("email") as string;
 
 
 /*    if (email === "1") {
