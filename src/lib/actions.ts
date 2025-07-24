@@ -22,7 +22,7 @@ const { data, error } = await resend.emails.send({
     from: "Vercel <vercel@resend.dev>",
 //    to: [email],
     to: "apps@onlineraft.com",
-    subject: "Join team on Vercel AAA",
+    subject: "Join team on Vercel AAAa",
     react: VercelInviteUserEmail({}),
   });
 
