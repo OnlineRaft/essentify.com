@@ -77,7 +77,7 @@ const PaymentForm = ({
             </label><br />
             <input
               id="name"
-              name="email"
+              name="name"
               type="email"
               required
               defaultValue="delivered@resend.dev"
@@ -93,7 +93,7 @@ const PaymentForm = ({
             </label><br /> 
              <input
               id="address"
-              name="email"
+              name="address"
               type="email"
               required
               defaultValue="delivered@resend.dev"
