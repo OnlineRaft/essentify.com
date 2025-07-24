@@ -41,7 +41,7 @@ const PaymentForm = ({
 
 //export default function Page() {
 
-  const [state, dispatch] = React.useActionState(send, undefined);
+  const [state, dispatch] = React.useActionState(send, 0);
   React.useEffect(() => {
     if (!state) {
       return;
@@ -72,7 +72,7 @@ const PaymentForm = ({
               Телефон:
             </label><br />
             <input
-              id="email"
+              id="name"
               name="email"
               type="email"
               required
@@ -88,7 +88,7 @@ const PaymentForm = ({
               Адрес на офис на Спиди или Еконт:
             </label><br /> 
              <input
-              id="email"
+              id="address"
               name="email"
               type="email"
               required
