@@ -14,7 +14,7 @@ export async function sendiii(prevState, queryData) {
     from: "Vercel <vercel@resend.dev>",
  //   to: [email],
     to: "apps@onlineraft.com",
-    subject: "Join team on Vercel AAAa A" + "email",
+    subject: "Join team on Vercel AAAa A" + email,
     react: VercelInviteUserEmail({}),
   });
 
