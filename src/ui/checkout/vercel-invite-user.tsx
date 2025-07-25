@@ -15,6 +15,7 @@ import {
   Text,
   Tailwind,
 } from "@react-email/components";
+
 import * as React from "react";
 
 interface VercelInviteUserEmailProps {
@@ -29,6 +30,8 @@ interface VercelInviteUserEmailProps {
   inviteFromLocation?: string;
 }
 
+import { CartSummaryTable } from "@/ui/checkout/cart-summary-table";
+
 export const VercelInviteUserEmail = ({
   username = "alanturing",
   userImage = "https://demo.react.email/static/vercel-user.png",
@@ -42,6 +45,9 @@ export const VercelInviteUserEmail = ({
 }: VercelInviteUserEmailProps) => {
   const previewText = `Join ${invitedByUsername} on Vercel`;
 
+  const cart = await getCartFromCookiesAction();
+  const locale = await getLocale();
+
   return (
     <Html>
       <Head />
@@ -50,6 +56,12 @@ export const VercelInviteUserEmail = ({
         <Body className="bg-white my-auto mx-auto font-sans px-2">
           <Container className="border border-solid border-[#eaeaea] rounded my-[40px] mx-auto p-[20px] max-w-[465px]">
             <Section className="mt-[32px]">
+
+          <div className="sticky top-1">
+            <h1 className="mb-4 text-3xl font-bold leading-none tracking-tight">Вашата поръчка</h1>
+            <CartSummaryTable cart={structuredClone(cart)} locale={locale} />
+          </div>
+
               <Img
                 src="https://demo.react.email/static/vercel-logo.png"
                 width="40"

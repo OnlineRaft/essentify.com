@@ -124,7 +124,8 @@ const PaymentForm = ({
     </div>
 
     <div className="table-row">
-      <div className="table-cell w-full"><label className="mt-3 w-full"><SubmitButton /></label></div>       
+      <div className="table-cell w-full"><label className="mt-3 w-full"><SubmitButton /></label></div>
+      <div className="table-cell"><label>&nbsp;</label></div>
   </div>
 
   </div>
