@@ -210,7 +210,14 @@ export function CustomMDX(props: CustomMDXProps) {
   // Add a try-catch block to handle any errors during MDX rendering
   try {
     return (
-      <MDXRemote {...props} components={{ ...components, ...(props.components || {}) }} />
+      <MDXRemote
+        {...props}
+        options={{ blockJS: false }}
+        components={{
+          ...components,
+          ...(props.components || {})
+        }}
+      />
     );
   } catch (error) {
     console.error('Error rendering MDX content:', error);
