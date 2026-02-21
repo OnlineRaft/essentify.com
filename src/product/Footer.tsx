@@ -55,16 +55,16 @@ export const Footer = () => {
             Resources
           </Row>
           <Row>
-            <SmartLink href="https://dopler.app">About us</SmartLink>
+            <SmartLink href="https://once-ui.com/about">About us</SmartLink>
           </Row>
           <Row>
-            <SmartLink href="https://dopler.app/terms">Terms of Use</SmartLink>
+            <SmartLink href="https://once-ui.com/terms-of-use">Terms of Use</SmartLink>
           </Row>
           <Row>
-            <SmartLink href="https://dopler.app/privacy">Privacy Policy</SmartLink>
+            <SmartLink href="https://once-ui.com/privacy-policy">Privacy Policy</SmartLink>
           </Row>
           <Row>
-            <SmartLink href="https://dopler.app/license">License Agreement</SmartLink>
+            <SmartLink href="https://once-ui.com/license-agreement">License Agreement</SmartLink>
           </Row>
         </Column>
         <Column data-border="rounded" gap="12" textVariant="label-default-m">
